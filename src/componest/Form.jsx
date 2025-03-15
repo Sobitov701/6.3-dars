@@ -1,12 +1,16 @@
-function FormList({ handleSubmit, setText, text }) {
+function FormList({ handleSubmit, setText, text, error }) {
   return (
     <form onSubmit={handleSubmit}>
       <input
         type="text"
-        onChange={(e) => setText(e.target.value)}
+        onChange={(e) => {
+          const inputText = e.target.value;
+          setText(inputText);
+        }}
         value={text}
       />
       <button>Add</button>
+      {error && <p>{error}</p>}
     </form>
   );
 }
