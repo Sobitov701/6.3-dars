@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import TitlesList from "./componest/TitelsList";
+import TitlesList from "./componest/TitelsLIst";
 import FormList from "./componest/Form";
 
 const initalValue = () => {
