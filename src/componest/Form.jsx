@@ -9,7 +9,7 @@ function FormList({ handleSubmit, setText, text, error }) {
         }}
         value={text}
       />
-      <button>Add</button>
+      <button>Qo`shish</button>
       {error && <p>{error}</p>}
     </form>
   );

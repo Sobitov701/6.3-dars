@@ -11,7 +11,7 @@ function Item({ t, deleteTitle }) {
       )}
       <li>
         <p>{t.title}</p>
-        <button onClick={() => setShowModal(true)}>Delete</button>
+        <button onClick={() => setShowModal(true)}>O`chirish</button>
       </li>
     </>
   );
